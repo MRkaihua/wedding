@@ -1,0 +1,341 @@
+.banner-c .arr {
+    width: 50px;
+    height: 79px;
+    font-size: 40px;
+    color: #eeeef0;
+    line-height: 79px;
+    text-align: center;
+    background-color: rgba(201, 202, 206, .5);
+}
+.banner-c .arr-l {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -39.5px;
+}
+.banner-c .arr-r {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    margin-top: -39.5px;
+}
+.banner-c .arr:hover {
+    background-color: rgba(185, 171, 119, .5);
+}
+.title {
+    width: 1200px;
+    height: 51px;
+    margin: 100px auto 80px;
+    text-align: center;
+}
+.title .item1 {
+    font-size: 26px;
+    color: #444444;
+}
+.title .item2 {
+    font-size: 16px;
+    color: #c1c1c1;
+    margin: 7px auto 2px;
+}
+.banner-c .dot {
+    position: absolute;
+    left: 50%;
+    bottom: 21px;
+    height: 18px;
+    transform: translate(-50%, 0);
+}
+.banner-c .dots {
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #bebec2;
+    border: 5px solid transparent;
+    /* 背景色 默认  填充到 border  */
+
+    /* 让背景色  只在内容区 有 */
+    background-clip: content-box;
+    border-radius: 50%;
+}
+.banner-c .dots.active {
+    margin-right: 13px;
+}
+.banner-c .dots:hover {
+    background-color: #fff;
+    border-color: #bebec2;
+}
+.wedding-c {
+    width: 1200px;
+    margin: 0 auto;
+}
+.wedding-c .nav {
+    width: 544px;
+    height: 72px;
+    padding: 0 328px;
+}
+.wedding-c .nav-list .item {
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-right: 88px;
+}
+.wedding-c .nav-list .item.mr0 {
+    float: right;
+    margin-right: 0;
+}
+.wedding-c .nav a {
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.wedding-c .nav-list .dot1 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: 28px;
+    width: 4px;
+    height: 4px;
+    background-color: #b9ab77;
+    border-radius: 50%;
+}
+.wedding-c .nav-list a:hover {
+    color: #b9ab77;
+}
+.wedding-c .nav-list a:hover+ .dot1 {
+    display: block;
+}
+.wedding-c .item.active a {
+    color: #b9ab77
+}
+.wedding-c .item.active .dot1 {
+    display: block;
+}
+.wedding-c .main {
+    width: 100%;
+    height: 360px;
+}
+.wedding-c .main .pic {
+    float: left;
+    width: 270px;
+    height: 360px;
+}
+.wedding-c .shadow {
+    display: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(185, 171, 119, .3);
+    overflow: hidden;
+}
+.wedding-c .shadow .atc1 {
+    font-size: 14px;
+    margin: 124px 0 35px 0;
+}
+.wedding-c .shadow .atc2 {
+    line-height: 20px;
+}
+.wedding-c .main .pic:hover .shadow {
+    display: block;
+}
+.wedding-c .main .pic1,
+.wedding-c .main .pic2,
+.wedding-c .main .pic3 {
+    margin-right: 40px;
+}
+.wedding-c .main .pic1 {
+    background: url(../img/pic1.png) no-repeat center;
+}
+.wedding-c .main .pic2 {
+    background: url(../img/pic2.png) no-repeat center;
+}
+.wedding-c .main .pic3 {
+    background: url(../img/pic3.png) no-repeat center;
+}
+.wedding-c .main .pic4 {
+    background: url(../img/pic4.png) no-repeat center;
+}
+.more {
+    width: 148px;
+    height: 43px;
+    color: #303030;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #f5f5f5;
+    margin: 60px auto;
+}
+.jew {
+    width: 100%;
+    height: 555px;
+    background-color: #f9f9f9;
+}
+.jew-c {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.jew-c .pic-box {
+    width: 100%;
+    height: 180px;
+}
+.jew-c .pic-inner {
+    float: left;
+    width: 270px;
+    height: 180px;
+    margin-right: 40px;
+}
+.jew-c .pic-box .inner4 {
+    margin-right: 0;
+}
+.jew-c .pic-box .inner1 {
+    background: url(../img/pic4.png) no-repeat center;
+}
+.jew-c .pic-box .inner2 {
+    background: url(../img/pic5.png) no-repeat center;
+}
+.jew-c .pic-box .inner3 {
+    background: url(../img/pic6.png) no-repeat center;
+}
+.jew-c .pic-box .inner4 {
+    background: url(../img/pic7.png) no-repeat center;
+}
+.jew-c .more {
+    border-color: #e1e1e1;
+    margin-bottom: 0;
+}
+.designers .title .des {
+    display: block;
+    width: 1200px;
+    height: 51px;
+    font-size: 26px;
+    color: #f7f5f5;
+    margin: 100px auto 80px;
+    text-align: center;
+    
+}
+.designers .title span {
+    font-size: 16px;
+    color: #c1c1c1;
+    display: block;
+    margin-top: 10px;
+}
+.activity {
+    position: relative;
+    width: 100%;
+    height: 503px;
+    background: url(../img/banner2.png) no-repeat top;
+}
+.activity-c {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    height: 334px;
+}
+.activity .newbox {
+    float: left;
+    width: 257px;
+    height: 290px;
+    background-color: #fff;
+    padding: 44px 0 0 43px;
+}
+.activity .new2 {
+    background: url(../img/pic9.png) no-repeat center;
+}
+.activity .news .time,
+.activity .news .article {
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.activity .news .time.time-l {
+    font-size: 30px;
+}
+.activity .news .middle {
+    margin: 48px 0 21px 0;
+}
+.activity .news .article {
+    line-height: 22px;
+}
+.activity .newbox .more-s {
+    display: block;
+    color: #bbbbbb;
+    margin-top: 57px;
+}
+.designer {
+    width: 100%;
+    height: 664px;
+    background: url(../img/banner3.png) no-repeat center;
+    background-size: cover;
+}
+.designer-c {
+    position: relative;
+    width: 1200px;
+    height: 664px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.designer-c .title .item1 {
+    color: #f7f5f5;
+}
+.designer-c .title .item2 {
+    color: #c1c1c1;
+}
+.designer .main {
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    height: 453px;
+}
+.designer-c .title {
+    margin-top: 100px;
+}
+.designer .inner-box {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100%;
+}
+.designer .inner-box .person {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.designer .inner-box .person1 {
+    background: url(../img/person1.png) no-repeat center;
+}
+.designer .inner-box .person2 {
+    background: url(../img/person2.png) no-repeat center;
+}
+.designer .inner-box .person3 {
+    background: url(../img/person3.png) no-repeat center;
+}
+.designer .main .name {
+    font-size: 24px;
+    color: #f7f5f5;
+    text-align: center;
+    margin: 23px 0 8px 0;
+}
+.designer .main .explain {
+    font-size: 12px;
+    color: #b9b9b9;
+    text-align: center;
+    line-height: 20px;
+}
+.designer .main .explain.jobs {
+    margin-bottom: 8px;
+}
+.designer .main .more-m {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -75px;
+    display: block;
+    width: 150px;
+    height: 44px;
+    font-size: 12px;
+    color: #b9b9b9;
+    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px solid #bbbaba;
+}

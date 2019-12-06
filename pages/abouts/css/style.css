@@ -1,0 +1,95 @@
+.banner {
+    width: 100%;
+    height: 270px;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+}
+.story-c .main {
+    width: 1080px;
+    height: 497px;
+    margin: 0 auto;
+}
+.story .main .pic {
+    float: left;
+    width: 422px;
+    height: 316px;
+    background: url(../img/pic1.png) no-repeat center;
+}
+.story .main .item1 {
+    float: left;
+    width: 590px;
+    height: 316px;
+    margin-left: 68px;
+}
+.story .main .item2 {
+    float: left;
+    width: 1080px;
+    height: 100px;
+    margin-top: 50px;
+}
+.story .main .article {
+    font-size: 16px;
+    color: #6b6b6b;
+    line-height: 27px;
+}
+.story .main .item1 p {
+    text-indent: 27px;
+    
+}
+.contact {
+    width: 100%;
+    height: 1060px;
+}
+.contact-c {
+    position: relative;
+    width: 1080px;
+    height: 100%;
+    color: #616060;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.contact-c .title {
+    width: 1080px;
+}
+.contact-c .pic2 {
+    width: 100%;
+    height: 345px;
+    background: url(../img/pic2.png) no-repeat center;
+    margin-bottom: 33px;
+}
+.contact .address1 {
+    color: #373737;
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+.contact .map {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 263px;
+}
+.contact .map-l {
+    float: left;
+    width: 473px;
+    height: 100%;
+    background: url(../img/map.png) no-repeat center;
+    margin-right: 40px;
+}
+.contact .map-r {
+    float: left;
+}
+.contact .map-r .items {
+    margin-top: 164px;
+}
+.footer .foot-l p,
+.footer .foot-r .msg {
+    color: #fff;
+}
+.footer .foot-r .sp1 {
+    color: #fff;
+}
+.footer {
+    background-color: #4d4d4d;
+}

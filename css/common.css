@@ -1,0 +1,130 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.banner {
+    width: 100%;
+    height: 720px;
+    background: url(../img/banner.png) no-repeat center;
+    background-size: cover;
+}
+.banner-c {
+    position: relative;
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+}
+.header-c { 
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.header-c .logo {
+    float: left;
+    width: 186px;
+    height: 80px;
+    background: url(../img/logo.png) no-repeat center;
+    margin-left: 60px;
+}
+.header-c .nav {
+    float: right;
+    width: 674px;
+    height: 80px;
+    margin-right: 60px;
+}
+.header .nav-item {
+    position: relative;
+    float: left;
+}
+.header .nav-item a {
+    display: block;
+    height: 100%;
+    font-size: 16px;
+    color: #666666;
+    line-height: 80px;
+    text-align: center;
+}
+.header .nav-item a:hover {
+    color: #000;
+    font-weight: 700;
+}
+.header .nav-item:hover .underline {
+    display: block;
+}
+.header .nav-item.mar {
+    margin: 0 96.5px;
+}
+.header .nav-item.active {
+    color: #000;
+    font-weight: 700;
+}
+.header .nav-item .underline {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 26px;
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+}
+.header .nav-item.active .underline {
+    display: block;
+}
+.title {
+    width: 1200px;
+    height: 51px;
+    margin: 100px auto 80px;
+    text-align: center;
+}
+.title .item1 {
+    font-size: 26px;
+    color: #444444;
+}
+.title .item2 {
+    font-size: 16px;
+    color: #c1c1c1;
+    margin: 7px auto 2px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+
+}
+.footer-c {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .foot-l,
+.footer .foot-r {
+    width: 600px;
+    height: 100px;
+    font-size: 12px;
+    color: #323232;
+}
+.foot-l {
+    float: left;
+}
+.foot-l p {
+    text-align: left;
+}
+.foot-l .item-1 {
+    margin: 39px 0 12px 0;
+}
+.foot-r {
+    float: right;
+}
+.foot-r .msg {
+    float: right;
+    color: #323232;
+    line-height: 100px;
+}
+.foot-r .sp1 {
+    float: right;
+    line-height: 100px;
+}
+.foot-r .msg.msg-1 {
+    margin: 0 61px 0 65px;
+}
